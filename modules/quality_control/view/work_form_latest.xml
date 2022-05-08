@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="/form/field[@name='operation']" position="after">
+    <!-- <field name="ww_mb" colspan="4" 
+    view_ids="quality_control.ww_mb_view_tree,quality_control.ww_mb_view_form"/> -->
+
+    <!-- <separator name="ww_mb_inputqty" id="ww_mb_seperator" string="Material Balance" colspan="6" /> -->
+    <label name="equipment_no"/>
+    <field name="equipment_no"/>
+
+
+    <separator name="ww_mb_inputqty"  string="Input Qty" colspan="6" />
+    <label name="ww_mb_inputqty"/>
+    <field name="ww_mb_inputqty"/>
+    <separator name="ww_mb_inputqty"  string="Material Balance" colspan="6" />
+    <label name="ww_mb_output"/>
+    <field name="ww_mb_output"/>
+    <label name="ww_mb_loss"/>
+    <field name="ww_mb_loss"/>
+    <label name="ww_mb_consumption"/>
+    <field name="ww_mb_consumption"/>
+
+    <separator name="ww_mb_inputqty"  string="Input Qty %" colspan="6" />
+    <label name="ww_mb_inputqty_percent"/>
+    <field name="ww_mb_inputqty_percent"/>
+    <separator name="ww_mb_inputqty"  string="Material Balance%" colspan="6" />
+
+    <label name="ww_mb_output_percent"/>
+    <field name="ww_mb_output_percent"/>
+    <label name="ww_mb_loss_percent"/>
+    <field name="ww_mb_loss_percent"/>
+    <label name="ww_mb_consumption_percent"/>
+    <field name="ww_mb_consumption_percent"/>
+
+    <button name="validate_mb_ww" colspan="2"/>
+
+
+
+
+    <!-- <field name="stripping" colspan="4" 
+    view_ids="quality_control.stripping_mb_view_tree,quality_control.stripping_mb_view_form"/> -->
+    <separator name="st_mb_inputqty"  string="Input Qty" colspan="6" />
+    <label name="st_mb_inputqty"/>
+    <field name="st_mb_inputqty"/>
+    <separator name="st_mb_inputqty"  string="Material Balance" colspan="6" />
+    <label name="st_mb_f1_mix"/>
+    <field name="st_mb_f1_mix"/>
+    <label name="st_mb_recyclable_f1"/>
+    <field name="st_mb_recyclable_f1"/>
+    <label name="st_mb_strippingmain"/>
+    <field name="st_mb_strippingmain"/>
+    <label name="st_mb_aftermain"/>
+    <field name="st_mb_aftermain"/>
+    <label name="st_mb_bottom"/>
+    <field name="st_mb_bottom"/>
+    <label name="st_mb_dist_loss"/>
+    <field name="st_mb_dist_loss"/>
+    
+
+    <separator name="st_mb_inputqty"  string="Input Qty%" colspan="6" />
+    <label name="st_mb_inputqty_percent"/>
+    <field name="st_mb_inputqty_percent"/>
+    <separator name="st_mb_inputqty"  string="Material Balance%" colspan="6" />
+    <label name="st_mb_f1_mix_percent"/>
+    <field name="st_mb_f1_mix_percent"/>
+    <label name="st_mb_recyclable_f1_percent"/>
+    <field name="st_mb_recyclable_f1_percent"/>
+    <label name="st_mb_strippingmain_percent"/>
+    <field name="st_mb_strippingmain_percent"/>
+    <label name="st_mb_aftermain_percent"/>
+    <field name="st_mb_aftermain_percent"/>
+    <label name="st_mb_bottom_percent"/>
+    <field name="st_mb_bottom_percent"/>
+    <label name="st_mb_dist_loss_percent"/>
+    <field name="st_mb_dist_loss_percent"/>
+
+    <button name="validate_mb_stripping" colspan="2"/>
+
+
+   
+    <!-- <field name="ed_mb" colspan="4" 
+    view_ids="quality_control.ed_mb_view_tree,quality_control.ed_mb_view_form"/>  -->
+    <separator name="ed_mb_inputqty"  string="Input Qty" colspan="6" />
+    <label name="ed_mb_inputqty"/>
+    <field name="ed_mb_inputqty"/>
+    <separator name="ed_mb_inputqty"  string="Material Balance" colspan="6" /> 
+    <label name="ed_mb_f1_mix"/>
+    <field name="ed_mb_f1_mix"/>
+    <label name="ed_mb_recyclable_f1"/>
+    <field name="ed_mb_recyclable_f1"/>
+    <label name="ed_mb_strippingmain"/>
+    <field name="ed_mb_strippingmain"/>
+    <label name="ed_mb_aftermain"/>
+    <field name="ed_mb_aftermain"/>
+    <label name="ed_mb_bottom"/>
+    <field name="ed_mb_bottom"/>
+    <label name="ed_mb_dist_loss"/>
+    <field name="ed_mb_dist_loss"/>
+    
+
+    <separator name="ed_mb_inputqty"  string="Input %" colspan="6" />
+    <label name="ed_mb_inputqty_percent"/>
+    <field name="ed_mb_inputqty_percent"/>
+    <separator name="ed_mb_inputqty"  string="Material Balance%" colspan="6" />
+    
+    <label name="ed_mb_f1_mix_percent"/>
+    <field name="ed_mb_f1_mix_percent"/>
+    <label name="ed_mb_recyclable_f1_percent"/>
+    <field name="ed_mb_recyclable_f1_percent"/>
+    <label name="ed_mb_strippingmain_percent"/>
+    <field name="ed_mb_strippingmain_percent"/>
+    <label name="ed_mb_aftermain_percent"/>
+    <field name="ed_mb_aftermain_percent"/>
+    <label name="ed_mb_bottom_percent"/>
+    <field name="ed_mb_bottom_percent"/>
+    <label name="ed_mb_dist_loss_percent"/>
+    <field name="ed_mb_dist_loss_percent"/>
+
+    <button name="validate_mb_ed" colspan="2"/>
+
+
+
+
+    <group id="test_234"  colspan="4">
+    <label name="quantitytaken"/>
+    <field name="quantitytaken" colspan="3"/>
+    <label name="initial_ph"/>
+    <field name="initial_ph"/>
+    <label name="initial_moisture"/>
+    <field name="initial_moisture"/>
+    <label name="final_ph"/>
+    <field name="final_ph"/>
+    <label name="final_moisture"/>
+    <field name="final_moisture"/>
+    </group>
+    <field name="treatment_freeparameter" colspan="4" 
+    view_ids="quality_control.treatment_freeparameter_view_tree,quality_control.treatment_freeparameter_view_form"/> 
+    <group id="test_1234" colspan="4">
+    <label name="qty_sulphuric"/>
+    <field name="qty_sulphuric"/>
+    <label name="qty_bht"/>
+    <field name="qty_bht"/>
+    </group>
+    <!-- <field name="materialbalance" colspan="4" 
+    view_ids="quality_control.materialbalance_view_tree,quality_control.materialbalance_view_form"/> -->
+    
+    <!-- Treatment  -->
+    <separator name="treatment_input_qty"  string="Input Qty" colspan="6" />
+    <label name="treatment_input_qty"/>
+    <field name="treatment_input_qty"/>
+    
+    <separator name="treatment_input_qty"  string="Material Balance" colspan="6" />
+    <label name="treatment_output_qty"/>
+    <field name="treatment_output_qty"/>
+    <label name="treatment_loss"/>
+    <field name="treatment_loss"/>
+    <label name="treatment_lye_collected"/>
+    <field name="treatment_lye_collected"/>
+
+    <separator name="treatment_input_qty"  string="Input %" colspan="6" />
+    <label name="treatment_input_qty_percent"/>
+    <field name="treatment_input_qty_percent"/>
+    <separator name="treatment_input_qty"  string="Material Balance %" colspan="6" />
+    <label name="treatment_output_qty_percent"/>
+    <field name="treatment_output_qty_percent"/>
+    <label name="treatment_loss_percent"/>
+    <field name="treatment_loss_percent"/>
+    <label name="treatment_lye_collected_percent"/>
+    <field name="treatment_lye_collected_percent"/>
+
+    <button name="validate_mb_treatment" colspan="2"/>
+    
+
+
+    
+    <field name="distillation_input" colspan="4" 
+    view_ids="quality_control.fd_inputdetails_view_tree,quality_control.fd_inputdetails_view_form"/>
+    <group id="tet_234" colspan="4">
+    <!-- <separator string="" id="rest" colspan="4"/>
+    <separator string="Analysis of rejected material" id="rests" colspan="4"/> -->
+    <label name="first"/>
+    <field name="first"/>
+    <label name="second"/>
+    <field name="second"/>
+    <label name="third"/>
+    <field name="third"/>
+    <label name="fourth"/>
+    <field name="fourth"/>
+    <label name="fifth"/>
+    <field name="fifth"/>
+    <field name="analysis" colspan="4" 
+    view_ids="quality_control.fd_analysis_view_tree,quality_control.fd_analysis_view_form"/>
+    <!-- <field name="mb" colspan="4" 
+    view_ids="quality_control.fd_mb_view_tree,quality_control.fd_mb_view_form"/> -->
+
+
+
+    <separator name="fd_mb_inputqty"  string="Input Qty" colspan="6" />
+    <label name="fd_mb_inputqty"/>
+    <field name="fd_mb_inputqty"/>
+    <separator name="fd_mb_inputqty"  string="Material Balance" colspan="6" />
+    <label name="fd_mb_water"/>
+    <field name="fd_mb_water"/>
+    <label name="fd_mb_f1"/>
+    <field name="fd_mb_f1"/>
+    <label name="fd_mb_f2"/>
+    <field name="fd_mb_f2"/>
+    <label name="fd_mb_main"/>
+    <field name="fd_mb_main"/>
+    <label name="fd_mb_aftermain"/>
+    <field name="fd_mb_aftermain"/>    
+    <label name="fd_mb_residue"/>
+    <field name="fd_mb_residue"/>
+    <label name="fd_mb_loss"/>
+    <field name="fd_mb_loss"/>
+
+
+    <separator name="fd_mb_inputqty"  string="Input Qty %" colspan="6" /> 
+    <label name="fd_mb_inputqty_percent"/>
+    <field name="fd_mb_inputqty_percent"/>
+
+    <separator name="fd_mb_inputqty"  string="Material Balance %" colspan="6" /> 
+    <label name="fd_mb_water_percent"/>
+    <field name="fd_mb_water_percent"/>
+    <label name="fd_mb_f1_percent"/>
+    <field name="fd_mb_f1_percent"/>
+    <label name="fd_mb_f2_percent"/>
+    <field name="fd_mb_f2_percent"/>
+    <label name="fd_mb_main_percent"/>
+    <field name="fd_mb_main_percent"/>
+    <label name="fd_mb_aftermain_percent"/>
+    <field name="fd_mb_aftermain_percent"/>
+    <label name="fd_mb_residue_percent"/>
+    <field name="fd_mb_residue_percent"/>
+    <label name="fd_mb_loss_percent"/>
+    <field name="fd_mb_loss_percent"/>
+    <button name="validate_mb_fd" colspan="2"/>
+
+
+    </group>
+    </xpath>
+</data>

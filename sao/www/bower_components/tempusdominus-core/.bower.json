@@ -1,0 +1,41 @@
+{
+  "name": "eonasdan-bootstrap-datetimepicker",
+  "version": "5.0.0-alpha6",
+  "main": [
+    "build/js/core.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.8.3",
+    "moment": ">=2.10.5"
+  },
+  "homepage": "https://github.com/tempusdominus/core",
+  "authors": [
+    "Eonasdan"
+  ],
+  "description": "A date/time picker component designed for Momentjs. For usage, installation and demos see Project Site on GitHubr",
+  "keywords": [
+    "datepicker",
+    "datetimepicker",
+    "timepicker",
+    "moment"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/docs"
+  ],
+  "_release": "5.0.0-alpha6",
+  "_resolution": {
+    "type": "version",
+    "tag": "5.0.0-alpha6",
+    "commit": "56b3f082e77e35b16630b40de1c1a58d246e14e4"
+  },
+  "_source": "https://github.com/tempusdominus/core.git",
+  "_target": "5.0.0-alpha6",
+  "_originalSource": "tempusdominus-core"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.act_window.domain" id="act_shipment_in_form_domain_received">
+                <field name="name">Job Work</field>
+                <field name="sequence" eval="10000"/>
+                <field name="domain" eval="[('shipment_type', '=', 'jw')]" pyson="1"/>
+                <field name="count" eval="True"/>
+                <field name="act_window" ref="stock.act_shipment_in_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_shipment_in_form_domain_approved_analysis">
+                <field name="name">Analysis Approved</field>
+                <field name="sequence" eval="10000"/>
+                <field name="domain" eval="[('preproduction_state', '=', 'approved'),('state','=','done'),('production_state','=','pending')]" pyson="1"/>
+                <field name="count" eval="True"/>
+                <field name="act_window" ref="stock.act_shipment_in_form"/>
+        </record>
+
+        <record model="ir.action.report" id="inward_productions">
+            <field name="name">Inward</field>
+            <field name="model">stock.shipment.in</field>
+            <field name="report_name">inward.report</field>
+            <field name="report">quality_control/inwardReport.odt</field>
+        </record>
+
+        <record model="ir.action.keyword" id="inward_production_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">stock.shipment.in,-1</field>
+            <field name="action" ref="inward_productions"/>
+        </record>
+
+    </data>
+</tryton>

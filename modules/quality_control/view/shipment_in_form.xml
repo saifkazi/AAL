@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='vehicle_no']" position="after">
+    <newline/>
+    <label name="net_wt"/>
+    <field name="net_wt"/>
+    <label name="gross_wt"/>
+    <field name="gross_wt"/>
+    <label name="tare_wt"/>
+    <field name="tare_wt"/>
+    </xpath>
+    <xpath expr="/form/field[@name='state']" position="after">
+    <newline/>
+    <label name="preproduction_state"/>
+    <field name="preproduction_state"/>
+    <!-- <button name="preproduction"/>  -->
+    <button name="process"/>
+    <newline/>
+    <label name="production_state"/>
+    <field name="production_state"/>
+    <label name="remaining_qty"/>
+    <field name="remaining_qty"/>
+    
+
+    </xpath>
+</data>

@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="work_view_form">
+            <field name="model">production.work</field>
+            <field name="inherit" ref="production_work.work_view_form"/>
+            <field name="name">work_form_latest</field>
+        </record>
+
+
+        <record model="ir.ui.view" id="treatment_freeparameter_view_tree">
+            <field name="model">treatment.freeparameter</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">treatment_freeparameter_tree</field>
+        </record>
+        <record model="ir.ui.view" id="treatment_freeparameter_view_form">
+            <field name="model">treatment.freeparameter</field>
+            <field name="type">form</field>
+            <field name="name">treatment_freeparameter_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="materialbalance_view_tree">
+            <field name="model">treatment.materialbalance</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">treatment_materialbalance_tree</field>
+        </record>
+        <record model="ir.ui.view" id="materialbalance_view_form">
+            <field name="model">treatment.materialbalance</field>
+            <field name="type">form</field>
+            <field name="name">treatment_materialbalance_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="fd_inputdetails_view_tree">
+            <field name="model">finaldistillation.input</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">fd_inputdetails_tree</field>
+        </record>
+        <record model="ir.ui.view" id="fd_inputdetails_view_form">
+            <field name="model">finaldistillation.input</field>
+            <field name="type">form</field>
+            <field name="name">fd_inputdetails_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="fd_analysis_view_tree">
+            <field name="model">finaldistillation.analysis</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">fd_analysis_tree</field>
+        </record>
+        <record model="ir.ui.view" id="fd_analysis_view_form">
+            <field name="model">finaldistillation.analysis</field>
+            <field name="type">form</field>
+            <field name="name">fd_analysis_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="fd_mb_view_tree">
+            <field name="model">final.materialbalance</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">fd_mb_tree</field>
+        </record>
+        <record model="ir.ui.view" id="fd_mb_view_form">
+            <field name="model">final.materialbalance</field>
+            <field name="type">form</field>
+            <field name="name">fd_mb_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="ed_mb_view_tree">
+            <field name="model">ed.materialbalance</field>   <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">ed_mb_tree</field>
+        </record>
+        <record model="ir.ui.view" id="ed_mb_view_form">
+            <field name="model">ed.materialbalance</field>
+            <field name="type">form</field>
+            <field name="name">ed_mb_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="ww_mb_view_tree">
+            <field name="model">ww.materialbalance</field>  <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">ww_mb_tree</field>
+        </record>
+        <record model="ir.ui.view" id="ww_mb_view_form">
+            <field name="model">ww.materialbalance</field>
+            <field name="type">form</field>
+            <field name="name">ww_mb_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="stripping_mb_view_tree">
+            <field name="model">striping.materialbalance</field>  <!--change in .py -->
+            <field name="type">tree</field>
+            <field name="name">striping_mb_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="stripping_mb_view_form">
+            <field name="model">striping.materialbalance</field>
+            <field name="type">form</field>
+            <field name="name">striping_mb_form</field>
+        </record>
+        
+        <!-- materialbalance treatment button -->
+        <record model="ir.model.button" id="validate_mb_treatment_button">
+                <field name="name">validate_mb_treatment</field>
+                <field name="string">Validate</field>
+                <field name="model"  search="[('model', '=', 'production.work')]"/>
+        </record>
+        <record model="ir.model.button" id="validate_mb_fd_button">
+                <field name="name">validate_mb_fd</field>
+                <field name="string">Validate</field>
+                <field name="model"  search="[('model', '=', 'production.work')]"/>
+        </record>
+
+         <record model="ir.model.button" id="validate_mb_stripping_button">
+                <field name="name">validate_mb_stripping</field>
+                <field name="string">Validate</field>
+                <field name="model"  search="[('model', '=', 'production.work')]"/>
+        </record>
+        <record model="ir.model.button" id="validate_mb_ww_button">
+                <field name="name">validate_mb_ww</field>
+                <field name="string">Validate</field>
+                <field name="model"  search="[('model', '=', 'production.work')]"/>
+        </record>
+
+        <record model="ir.model.button" id="validate_mb_ed_button">
+                <field name="name">validate_mb_ed</field>
+                <field name="string">Validate</field>
+                <field name="model"  search="[('model', '=', 'production.work')]"/>
+        </record>
+
+
+    </data>
+</tryton>

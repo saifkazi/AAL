@@ -1,0 +1,44 @@
+{
+  "name": "tempusdominus-bootstrap-3",
+  "version": "5.0.0-alpha8",
+  "main": [
+    "build/css/tempusdominus-bootstrap-3.min.css",
+    "build/js/tempusdominus-bootstrap-3.min.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.8.3",
+    "moment": ">=2.10.5",
+    "tempusdominus-core": "5.0.0-alpha6"
+  },
+  "homepage": "https://github.com/tempusdominus/bootstrap-3",
+  "authors": [
+    "Eonasdan"
+  ],
+  "description": "tempus dominus bootstrap3 datetimepicker",
+  "keywords": [
+    "twitter-bootstrap",
+    "bootstrap",
+    "datepicker",
+    "datetimepicker",
+    "timepicker",
+    "moment"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "5.0.0-alpha8",
+  "_resolution": {
+    "type": "version",
+    "tag": "5.0.0-alpha8",
+    "commit": "2dd322c56db19a9cb2ddfc4cfd5b5ad10ce4bceb"
+  },
+  "_source": "https://github.com/tempusdominus/bootstrap-3.git",
+  "_target": "^5.0.0-alpha8",
+  "_originalSource": "bootstrap-datetimepicker-v5-alpha"
+}

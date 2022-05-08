@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<form>
+    <label name="inputqty"/>
+    <field name="inputqty"/> 
+    <label name="output"/>
+    <field name="output"/>
+    <label name="loss"/>
+    <field name="loss"/>
+    <label name="water"/>
+    <field name="water"/>
+</form>

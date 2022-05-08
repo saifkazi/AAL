@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<form>
+    <label name="shipment"/>
+    <field name="shipment"/>
+    <field name="moves"/>
+    <newline/>
+    <label name="date"/>
+    <field name="date"/>
+    <newline/>
+    <label name="drum"/>
+    <field name="drum"/>
+    <label name="input_qty"/>
+    <field name="input_qty"/>
+    
+    
+    <!-- <label name="party"/>
+    <field name="party"/> -->
+    <!-- <label name="material"/>
+    <field name="material"/>
+    <label name="inwarddate"/>
+    <field name="inwarddate"/> -->
+    <field name="critearea" colspan="4" 
+    view_ids="quality_control.pre_qualitycontrol_labcritearea_view_tree,quality_control.pre_qualitycontrol_labcritarea_view_form"/>
+    <field name="rejected" colspan="4" 
+    view_ids="quality_control.pre_qualitycontrol_rejected_view_tree,quality_control.pre_qualitycontrol_rejected_view_form"/>
+    <newline/>
+   
+    <label name="image"/>
+    <field name="image"/>
+    <newline/>
+    <separator string="" id="test" colspan="4"/>
+    <separator string="Analysis of rejected material" id="tests" colspan="4"/>
+    <label name="colour"/>
+    <field name="colour"/> 
+    <label name="ph"/>
+    <field name="ph"/> 
+    <label name="moisture"/>
+    <field name="moisture"/> 
+    <label name="spgravity"/>
+    <field name="spgravity"/> 
+    <label name="gcanalysis"/>
+    <field name="gcanalysis"/> 
+    <label name="gcgraphno"/>
+    <field name="gcgraphno"/>
+    <field name="my_deviation_table" colspan="4" 
+    view_ids="quality_control.deviation_view_tree,quality_control.deviation_view_form"/>
+    <label name="remark"/>
+    <field name="remark"/>
+    <separator string="Customer Specifications" colspan="6" id="customer_specs"/>
+    <label name="ph1"/>
+    <field name="ph1"/>
+    <label name="moisture1"/>
+    <field name="moisture1"/>
+    <label name="peroxide"/>
+    <field name="peroxide"/>        
+    <label name="purity1"/>
+    <field name="purity1"/>
+    <newline/>
+    <group col="-1" colspan="2" id="state_buttons">
+        <button name="draft"/>
+        <button name="approve"/>
+        <button name="reject"/>
+    </group>
+    <label name="state"/>
+    <field name="state"/>
+</form>

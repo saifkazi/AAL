@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form>
+    <label name="inputqty"/>
+    <field name="inputqty"/> 
+    <label name="mix"/>
+    <field name="mix"/>
+    <label name="f1"/>
+    <field name="f1"/>
+    <label name="main"/>
+    <field name="main"/>
+    <label name="after"/>
+    <field name="after"/>
+    <label name="main"/>
+    <field name="main"/>
+    <label name="bottom"/>
+    <field name="bottom"/>
+    <label name="dist"/>
+    <field name="dist"/>
+</form>

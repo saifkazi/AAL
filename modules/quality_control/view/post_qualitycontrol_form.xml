@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<form>
+    <label name="production"/>
+    <field name="production"/>
+    <newline/>
+    <label name="effective_date"/>
+    <field name="effective_date"/>
+    <field name="analysis" colspan="4" 
+    view_ids="quality_control.post_qualitycontrol_analysis_view_tree,quality_control.post_qualitycontrol_analysis_view_form"/>
+    <label name="postgraph"/>
+    <field name="postgraph"/>
+    <newline/>
+    <separator id="post1" string="" colspan="4" />
+    <separator id="post2" string="Analysis of rejected material" colspan="4" />
+    <field name="rejected" colspan="4" 
+    view_ids="quality_control.post_qualitycontrol_rejected_view_tree,quality_control.post_qualitycontrol_rejected_view_form"/>
+    <label name="postimage"/>
+    <field name="postimage"/>
+    <newline/>
+    <label name="colour"/>
+    <field name="colour"/> 
+    <label name="ph"/>
+    <field name="ph"/> 
+    <label name="moisture"/>
+    <field name="moisture"/> 
+    <label name="spgravity"/>
+    <field name="spgravity"/> 
+    <label name="gcanalysis"/>
+    <field name="gcanalysis"/> 
+    <label name="gcgraphno"/>
+    <field name="gcgraphno"/>
+    <field name="customer" colspan="4" 
+    view_ids="quality_control.post_qualitycontrol_customer_view_tree,quality_control.post_qualitycontrol_customer_view_form"/>
+    <label name="remark"/>
+    <field name="remark"/>
+    <newline/>
+    <group col="-1" colspan="2" id="state_buttons">
+        <button name="draft"/>
+        <button name="approve"/>
+        <button name="reject"/>
+    </group>
+    <label name="state"/>
+    <field name="state"/>
+</form>

@@ -1,0 +1,13 @@
+{
+  "name": "popper.js",
+  "_cacheHeaders": {
+    "ETag": "\"52f1-MTeJyg4xtlR4TbuosPg/Nk+Gg7Q\"",
+    "Last-Modified": "Wed, 22 Jan 2020 15:27:18 GMT",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "_release": "e-tag:52f1-MTeJ",
+  "main": "index.js",
+  "_source": "https://unpkg.com/popper.js",
+  "_target": "*",
+  "_originalSource": "https://unpkg.com/popper.js"
+}

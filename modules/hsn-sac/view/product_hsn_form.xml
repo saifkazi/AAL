@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<form string="HelloWorld">
+    <label name="hsn_code"/>
+    <field name="hsn_code"/> 
+    <label name="product_description"/>
+    <field name="product_description"/>
+    <label name="rate"/>
+    <field name="rate"/>  
+</form>

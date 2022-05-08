@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form>
+    <label name="inputqty"/>
+    <field name="inputqty"/> 
+    <label name="water"/>
+    <field name="water"/>
+    <label name="f1"/>
+    <field name="f1"/>
+    <label name="f2"/>
+    <field name="f2"/>
+    <label name="main"/>
+    <field name="main"/>
+    <label name="aftermain"/>
+    <field name="aftermain"/>
+    <label name="residue"/>
+    <field name="residue"/>
+    <label name="loss"/>
+    <field name="loss"/>
+</form>

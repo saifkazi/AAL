@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<form>
+    <label name="srno"/>
+    <field name="srno"/> 
+    <label name="rm_addition_details"/>
+    <field name="rm_addition_details"/>
+    <label name="lye_colected"/>
+    <field name="lye_colected"/>
+    <label name="m_c"/>
+    <field name="m_c"/>
+    <label name="preoxide_value"/>
+    <field name="preoxide_value"/>
+    <label name="sign"/>
+    <field name="sign"/>
+</form>

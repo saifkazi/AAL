@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tree string="HelloWorld">
+    <field name="hsn_code"/>
+    <field name="product_description"/> 
+    <field name="rate"/>  
+</tree>

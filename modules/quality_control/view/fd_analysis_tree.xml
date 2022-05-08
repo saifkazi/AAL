@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<tree editable="1">
+    <field name="date"/>
+    <field name="time"/>
+    <field name="bottom"/>
+    <field name="mid_1"/>
+    <field name="mid_2"/>
+    <field name="top"/>
+    <field name="vacuum"/>
+    <field name="feed_rate"/>
+    <field name="reflux"/>
+    <field name="collection"/>
+    <field name="sample"/>
+    <field name="m_c"/>
+    <field name="ph"/>
+    <field name="density"/>
+    <field name="purity"/>
+</tree>

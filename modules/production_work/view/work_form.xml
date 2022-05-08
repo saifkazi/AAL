@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="production"/>
+    <field name="production" colspan="3"/>
+    <label name="from_time"/>
+    <field name="from_time"/>
+    <label name="to_time"/>
+    <field name="to_time"/>
+    <label name="time_duration"/>
+    <field name="time_duration"/>
+    <label name="company"/>
+    <field name="company"/>
+    <label name="sequence"/>
+    <field name="sequence"/>
+    <label name="operation"/>
+    <field name="operation"/>
+    <label name="work_center"/>
+    <field name="work_center"/>
+    <group id="buttons" colspan="4">
+       
+        <!-- <button name="start" icon="tryton-launch"/>
+        <button name="stop" icon="tryton-ok"/> -->
+    </group>
+    <!-- <field name="cycles" colspan="4"/> -->
+    <label id="empty" colspan="2"/>
+    <label name="state"/>
+    <field name="state"/>
+</form>

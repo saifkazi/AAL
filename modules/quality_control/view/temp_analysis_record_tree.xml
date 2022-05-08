@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<tree editable="1">
+    <field name="date"/>
+    <field name="time"/>
+    <field name="bottom"/>
+    <field name="mid1"/>
+    <field name="mid2"/>
+    <field name="top"/>
+    <field name="vaccum"/>
+    <field name="feedrate"/>
+    <field name="reflux"/>
+    <field name="collection"/>
+    <field name="sample"/>
+    <field name="mc"/>
+    <field name="ph"/>
+    <field name="density"/>
+    <field name="purity"/>
+    <field name="purity1"/>
+    <field name="purity2"/>
+    <field name="purity3"/>
+    <field name="purity4"/>
+    <field name="purity5"/>
+    <field name="sign"/>
+    
+</tree>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tree editable="1">
+    <field name="inputqty"/>
+    <field name="mix"/>
+    <field name="f1"/>
+    <field name="main"/>
+    <field name="after"/>
+    <field name="bottom"/>
+    <field name="dist"/>
+</tree>

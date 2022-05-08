@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<form>
+    <label name="date"/>
+    <field name="date"/> 
+    <label name="time"/>
+    <field name="time"/>
+    <label name="bottom"/>
+    <field name="bottom"/>
+    <label name="mid_1"/>
+    <field name="mid_1"/>
+    <label name="mid_2"/>
+    <field name="mid_2"/>
+    <label name="top"/>
+    <field name="top"/>
+    <label name="vacuum"/>
+    <field name="vacuum"/>
+    <label name="feed_rate"/>
+    <field name="feed_rate"/>
+    <label name="sample"/>
+    <field name="sample"/>
+    <label name="m_c"/>
+    <field name="m_c"/>
+    <label name="ph"/>
+    <field name="ph"/>
+    <label name="density"/>
+    <field name="density"/>
+    <label name="purity"/>
+    <field name="purity"/>
+</form>

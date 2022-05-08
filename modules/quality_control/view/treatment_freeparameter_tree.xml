@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tree editable="1">
+    <field name="srno"/>
+    <field name="rm_addition_details"/>
+    <field name="lye_colected"/>
+    <field name="m_c"/>
+    <field name="preoxide_value"/>
+    <field name="sign"/>
+</tree>

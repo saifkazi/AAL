@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<form>
+    <label name="date"/>
+    <field name="date"/> 
+    <label name="time"/>
+    <field name="time"/>
+    <label name="bottom"/>
+    <field name="bottom"/>
+    <label name="mid1"/>
+    <field name="mid1"/>
+     <label name="mid2"/>
+    <field name="mid2"/>
+     <label name="top"/>
+    <field name="top"/>
+     <label name="vaccum"/>
+    <field name="vaccum"/>
+     <label name="feedrate"/>
+    <field name="feedrate"/>
+     <label name="reflux"/>
+    <field name="reflux"/>
+     <label name="collection"/>
+    <field name="collection"/>
+     <label name="sample"/>
+    <field name="sample"/>
+     <label name="mc"/>
+    <field name="mc"/>
+     <label name="ph"/>
+    <field name="ph"/>
+     <label name="density"/>
+    <field name="density"/>
+     <label name="purity"/>
+    <field name="purity"/>
+
+    <label name="purity1"/>
+    <field name="purity1"/>
+
+    <label name="purity2"/>
+    <field name="purity2"/>
+
+    <label name="purity3"/>
+    <field name="purity3"/>
+
+    <label name="purity4"/>
+    <field name="purity4"/>
+
+    <label name="purity5"/>
+    <field name="purity5"/>
+     <label name="sign"/>
+    <field name="sign"/>
+</form>

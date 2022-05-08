@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<form>
+    <label name="input_qty"/>
+    <field name="input_qty"/> 
+    <label name="output_qty"/>
+    <field name="output_qty"/>
+    <label name="loss"/>
+    <field name="loss"/>
+    <label name="lye_collected"/>
+    <field name="lye_collected"/>
+</form>
